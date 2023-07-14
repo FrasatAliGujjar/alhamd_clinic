@@ -1,0 +1,129 @@
+@font-face {
+    font-family: Bulletto;
+    src: url(fonts/Bulletto.ttf);
+}
+
+@font-face {
+    font-family: Regista;
+    src: url(fonts/Regista.ttf);
+}
+
+@font-face {
+    font-family: Regista_i;
+    src: url(fonts/Regista_i.ttf);
+}
+
+@font-face {
+    font-family: Rockybilly;
+    src: url(fonts/Rockybilly.ttf);
+}
+
+@font-face {
+    font-family: Alvi;
+    src: url(fonts/Alvi.ttf);
+}
+
+/* =================================================  */
+
+
+.timing_inner {
+    background: url('images/bg3.jpg');
+    background-position: fixed;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-size: 60px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* =================================================  */
+@media only screen and (max-width: 1920px) {}
+
+@media only screen and (max-width: 1200px) {
+    .timing_inner{
+        background: url('images/bg3.jpg');
+        background-position: fixed;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        font-size: 20px;
+        padding-top: 60px;   
+        
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .timing_inner {
+        background: url('images/bg3.jpg');
+        background-position: fixed;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        font-size: 15px;
+        padding-top: 60px;
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .timing_inner {
+        background: url('images/bg3.jpg');
+        background-position: fixed;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        font-size: 15px;
+        padding-top: 60px;
+
+    }
+}
+
+@media only screen and (max-width: 535px) {
+    .timing_inner {
+        background: url('images/bg3.jpg');
+        background-position: fixed;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        font-size: 15px;
+        padding-top: 60px;
+
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .timing_inner {
+        background: url('images/bg3.jpg');
+        background-position: fixed;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        font-size: 15px;
+        padding-top: 60px;
+
+    }
+}
+
+@media only screen and (max-width: 412px) {
+    .timing_inner {
+        background: url('images/bg3.jpg');
+        background-position: fixed;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        font-size: 15px;
+        padding-top: 60px;
+
+    }
+}

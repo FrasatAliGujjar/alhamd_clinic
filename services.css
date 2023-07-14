@@ -1,0 +1,165 @@
+@font-face {
+    font-family: Bulletto;
+    src: url(fonts/Bulletto.ttf);
+}
+
+@font-face {
+    font-family: Regista;
+    src: url(fonts/Regista.ttf);
+}
+
+@font-face {
+    font-family: Regista_i;
+    src: url(fonts/Regista_i.ttf);
+}
+
+@font-face {
+    font-family: Rockybilly;
+    src: url(fonts/Rockybilly.ttf);
+}
+
+@font-face {
+    font-family: Alvi;
+    src: url(fonts/Alvi.ttf);
+}
+
+/* =================================================  */
+
+.disease_main {
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    height: fit-content;
+}
+
+
+
+
+/* =================================================  */
+
+.main {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.box_main {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    /* border: 2px solid darkblue; */
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.heading_div {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    /* border: 2px solid darkgreen; */
+    border-radius: 20px;
+    height: fit-content;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 256, 0.5);
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: Alvi;
+}
+
+.box_inner {
+
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin-top: 10px;
+    height: auto;
+
+}
+
+.box_inner_heading {
+    margin-top: 10px;
+    /* border: 2px solid green; */
+    border-radius: 10px;
+    height: fit-content;
+    font-size: 40px;
+    padding: 10px 20px;
+    font-family: Alvi;
+    color: cyan;
+    text-shadow: 3px 3px 5px white;
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+}
+.box_inner_heading:hover {
+    margin-top: 10px;
+    /* border: 2px solid green; */
+    border-radius: 10px;
+    height: fit-content;
+    font-size: 40px;
+    padding: 10px 20px;
+    font-family: Alvi;
+    color: cyan;
+    text-shadow: 3px 3px 5px yellow;
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+}
+
+.box_inner_image {
+    /* border: 2px solid blue; */
+    border-radius: 10px;
+    height: 300px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.box_inner_left_btn {
+    margin-top: 10px;
+    /* border: 2px solid blue; */
+    border-radius: 10px;
+    height: 30px;
+    background-color: brown;
+    text-align: center;
+}
+
+.box_inner_right_btn {
+    margin-top: 10px;
+    /* border: 2px solid blue; */
+    border-radius: 10px;
+    height: 30px;
+    background-color: magenta;
+    text-align: center;
+}
+
+
+.form_main {
+    margin-top: 10px;
+    /* border:  2px solid blue; */
+    background-color: rgba(0, 0, 128, 0.5);
+    border-radius: 20px;
+    height: fit-content;
+    /* padding-top: 20px; */
+    padding-bottom: 20px;
+}
+.form_box{
+    height: 10px;
+}
+
+
+
+
+
+
+
+/* =================================================  */
+@media only screen and (max-width: 1920px) {}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 535px) {}
+
+@media only screen and (max-width: 480px) {}
+
+@media only screen and (max-width: 412px) {}

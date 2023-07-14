@@ -1,0 +1,233 @@
+@font-face {
+    font-family: Bulletto;
+    src: url(fonts/Bulletto.ttf);
+}
+
+@font-face {
+    font-family: Regista;
+    src: url(fonts/Regista.ttf);
+}
+
+@font-face {
+    font-family: Regista_i;
+    src: url(fonts/Regista_i.ttf);
+}
+
+@font-face {
+    font-family: Rockybilly;
+    src: url(fonts/Rockybilly.ttf);
+}
+
+@font-face {
+    font-family: Alvi;
+    src: url(fonts/Alvi.ttf);
+}
+
+/* ========================   NAV BAR Start   =========================  */
+
+
+.nav_out_main {
+    /* border: 2px solid red; */
+    height: fit-content;
+
+}
+
+/* .nav_left_main {
+    border: 2px solid green;
+    height: 140px;
+    text-align: right;
+
+} */
+
+.nav_right_main {
+    /* border: 2px solid blue; */
+    height: fit-content;
+}
+
+/* ----------------------------- */
+.navbar-toggler-icon {
+    border: 1px solid brown;
+    border-radius: 4px;
+    color: brown;
+    background-color: white;
+}
+
+.logo {
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: -5px;
+    /* transition: all 3s; */
+}
+
+
+/* main nav bar out div  */
+.navbar {
+    /* border: 2px solid magenta; */
+    border-radius: 30px;
+    height: fit-content;
+    margin-top: 0px;
+    /* background-color: red; */
+}
+
+.nav_bar_main_container {
+
+    /* border: 2px solid white; */
+    border-radius: 0px;
+    color: white;
+    background-color: blue;
+}
+
+.nav_bar_logo_bar {
+    /* margin-top: 15px; */
+    margin-left: 2px;
+    /* border: 2px solid red; */
+    height: fit-content;
+}
+
+.nav_bar_title_bar {
+    margin-top: 15px;
+    margin-left: -10px;
+    /* border: 2px solid red; */
+    height: fit-content;
+}
+
+.list_main {
+    margin-top: 20px;
+    margin-left: 15x;
+    /* border: 2px solid green; */
+    height: fit-content;
+}
+
+.nav-item {
+    height: fit-content;
+    /* border: 2px solid goldenrod; */
+    border-radius: 3px;
+}
+
+/* -------------------------------------  */
+.title {
+    color: white;
+    font-size: 37px;
+    font-family: 'Agdasima', sans-serif;
+    text-shadow: 5px 5px 5px wheat;
+
+}
+
+.title:hover {
+    color: white;
+    font-size: 37px;
+    text-shadow: 5px 5px 5px cyan;
+    font-family: 'Agdasima', sans-serif;
+}
+
+.home-btn {
+
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: 130px;
+    text-align: center;
+    color: white;
+}
+
+.home-btn:hover {
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: 130px;
+    text-align: center;
+    background-color: white;
+    color: blue;
+}
+
+/* ========================   NAV BAR END   =========================  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================================================  */
+@media only screen and (max-width: 1920px) {}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 992px) {
+
+    .nav_left_main {
+        height: 1px;
+    }
+
+    .nav_bar_main_container {
+
+        border-bottom: 2px solid white;
+        /* border-radius: 10px; */
+        color: white;
+        background-color: blue;
+    }
+}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 535px) {
+    .title {
+        color: white;
+        font-size: 20px;
+        font-family: 'Agdasima', sans-serif;
+        text-shadow: 5px 5px 5px wheat;
+
+    }
+
+    .title:hover {
+        color: white;
+        font-size: 20px;
+        text-shadow: 5px 5px 5px cyan;
+        font-family: 'Agdasima', sans-serif;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .title {
+        color: white;
+        font-size: 20px;
+        font-family: 'Agdasima', sans-serif;
+        text-shadow: 5px 5px 5px wheat;
+
+    }
+
+    .title:hover {
+        color: white;
+        font-size: 20px;
+        text-shadow: 5px 5px 5px cyan;
+        font-family: 'Agdasima', sans-serif;
+    }
+}
+
+@media only screen and (max-width: 412px) {
+
+    .title {
+        color: white;
+        font-size: 20px;
+        font-family: 'Agdasima', sans-serif;
+        text-shadow: 5px 5px 5px wheat;
+
+    }
+
+    .title:hover {
+        color: white;
+        font-size: 20px;
+        text-shadow: 5px 5px 5px cyan;
+        font-family: 'Agdasima', sans-serif;
+    }
+}

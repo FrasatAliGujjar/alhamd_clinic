@@ -1,0 +1,272 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('');
+    background-position: fixed;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* =================================================  */
+
+    .main_1 {
+        margin-top: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        border: 2px solid red;
+        height: fit-content;
+    }
+
+    .left_main {
+        margin-top: 30px;
+        border: 2px solid darkblue;
+        border-radius: 1px;
+        height: fit-content;
+        /* padding-top: 10px; */
+        /* padding-bottom: 10px; */
+        margin-left: -170px;
+    }
+
+    .left_main:hover {
+        margin-top: 30px;
+        border: 2px solid darkblue;
+        border-radius: 1px;
+        height: fit-content;
+        /* padding-top: 10px; */
+        /* padding-bottom: 10px; */
+        margin-left: 0px;
+    }
+
+    .left_menu_main {
+        /* border: 2px solid darkgreen; */
+        border-radius: 1px;
+        height: 100%;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .left_menu {
+        border: 1px solid yellow;
+        border-bottom: 0px;
+        background-color: black;
+        color: white;
+        border-radius: 0px;
+        justify-content: space-around;
+        height: 30px;
+        text-align: right;
+
+    }
+    .left_menu:hover {
+        border: 1px solid yellow;
+        border-bottom: 0px;
+        background-color: darkblue;
+        color: cyan;
+        border-radius: 0px;
+        justify-content: space-around;
+        height: 30px;
+        text-align: right;
+
+    }
+
+    .right_main {
+        margin-top: 30px;
+        border: 2px solid green;
+        border-radius: 1px;
+        height: fit-content;
+        padding-bottom: 20px;
+    }
+
+    /* ====================================================================  */
+
+    .main {
+        margin-top: 20px;
+        padding-bottom: 20px;
+        border: 2px solid red;
+        border-radius: 10px;
+        height: fit-content;
+    }
+
+    .box_main {
+        margin-top: 10px;
+        padding-bottom: 10px;
+        border: 2px solid darkblue;
+        border-radius: 10px;
+        height: fit-content;
+    }
+
+    .heading_div {
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        border: 2px solid darkgreen;
+        border-radius: 10px;
+        height: 30px;
+        background-color: darkcyan;
+        text-align: center;
+    }
+
+    .box_inner {
+
+        border: 2px solid red;
+        border-radius: 10px;
+        margin-top: 10px;
+        height: auto;
+
+    }
+
+    .box_inner_heading {
+        margin-top: 10px;
+        border: 2px solid green;
+        border-radius: 10px;
+        height: 30px;
+        background-color: black;
+        text-align: center;
+    }
+
+    .box_inner_image {
+        border: 2px solid blue;
+        border-radius: 10px;
+        height: 300px;
+        margin-top: 10px;
+        background-color: grey;
+    }
+
+    .box_inner_left_btn {
+        margin-top: 10px;
+        border: 2px solid blue;
+        border-radius: 10px;
+        height: 30px;
+        background-color: brown;
+        text-align: center;
+    }
+
+    .box_inner_right_btn {
+        margin-top: 10px;
+        border: 2px solid blue;
+        border-radius: 10px;
+        height: 30px;
+        background-color: magenta;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* =================================================  */
+    @media only screen and (max-width: 1920px) {}
+
+    @media only screen and (max-width: 1200px) {}
+
+    @media only screen and (max-width: 992px) {
+        .right_main {
+            margin-top: 30px;
+            border: 2px solid green;
+            border-radius: 1px;
+            height: fit-content;
+            padding-bottom: 20px;
+            margin: auto;
+        }
+
+        .left_main {
+            margin-top: 30px;
+            border: 2px solid darkblue;
+            border-radius: 1px;
+            height: fit-content;
+            /* padding-top: 10px; */
+            /* padding-bottom: 10px; */
+            margin: auto;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .right_main {
+            margin-top: 30px;
+            border: 2px solid green;
+            border-radius: 1px;
+            height: fit-content;
+            padding-bottom: 20px;
+            margin: auto;
+        }
+
+        .left_main{
+            margin-top: 30px;
+            border: 2px solid darkblue;
+            border-radius: 1px;
+            height: fit-content;
+            /* padding-top: 10px; */
+            /* padding-bottom: 10px; */
+            margin: auto;
+        }
+    }
+
+    @media only screen and (max-width: 535px) {
+        .right_main {
+            margin-top: 30px;
+            border: 2px solid green;
+            border-radius: 1px;
+            height: fit-content;
+            padding-bottom: 20px;
+            margin: auto;
+        }
+
+        .left_main{
+            margin-top: 30px;
+            border: 2px solid darkblue;
+            border-radius: 1px;
+            height: fit-content;
+            /* padding-top: 10px; */
+            /* padding-bottom: 10px; */
+            margin: auto;
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+        .right_main {
+            margin-top: 30px;
+            border: 2px solid green;
+            border-radius: 1px;
+            height: fit-content;
+            padding-bottom: 20px;
+            margin: auto;
+        }
+
+        .left_main{
+            margin-top: 30px;
+            border: 2px solid darkblue;
+            border-radius: 1px;
+            height: fit-content;
+            /* padding-top: 10px; */
+            /* padding-bottom: 10px; */
+            margin: auto;
+        }
+    }
+
+    @media only screen and (max-width: 412px) {
+        .right_main {
+            margin-top: 30px;
+            border: 2px solid green;
+            border-radius: 1px;
+            height: fit-content;
+            padding-bottom: 20px;
+            margin: auto;
+        }
+
+        .left_main {
+            margin-top: 30px;
+            border: 2px solid darkblue;
+            border-radius: 1px;
+            height: fit-content;
+            /* padding-top: 10px; */
+            /* padding-bottom: 10px; */
+            margin: auto;
+        }
+    }
+}

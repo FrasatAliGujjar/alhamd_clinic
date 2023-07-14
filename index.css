@@ -1,0 +1,404 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('images/bg2.jpg');
+    background-position: fixed;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: fit-content;
+}
+
+@font-face {
+    font-family: Bulletto;
+    src: url(fonts/Bulletto.ttf);
+}
+
+@font-face {
+    font-family: Regista;
+    src: url(fonts/Regista.ttf);
+}
+
+@font-face {
+    font-family: Regista_i;
+    src: url(fonts/Regista_i.ttf);
+}
+
+@font-face {
+    font-family: Rockybilly;
+    src: url(fonts/Rockybilly.ttf);
+}
+
+@font-face {
+    font-family: Alvi;
+    src: url(fonts/Alvi.ttf);
+}
+
+/* =================================================  */
+
+
+.main_top {
+    /* border: 2px solid maroon; */
+    height: 500px;
+}
+
+.main_top_box1 {
+
+    /* border: 2px solid blue; */
+    height: 490px;
+}
+
+.main_top_box2 {
+
+    /* border: 2px solid blue; */
+    height: 490px;
+}
+
+.main_top_box3 {
+
+    /* border: 2px solid blue; */
+    height: 490px;
+}
+
+/* ================================ */
+
+/* welcome to  */
+.home_wel_heading_1 {
+
+    /* border: 2px solid magenta; */
+    text-align: center;
+    color: blue;
+    font-size: 80px;
+    font-family: Regista;
+    height: 100px;
+
+}
+
+.home_wel_heading_1:hover {
+
+    /* border: 2px solid magenta; */
+    text-align: center;
+    text-shadow: 5px 5px 5px skyblue;
+    color: blue;
+    font-size: 80px;
+    font-family: Regista;
+    height: 100px;
+
+}
+
+/* clinic name */
+.home_wel_heading_2 {
+
+    /* border: 2px solid magenta; */
+    text-align: center;
+    color: blue;
+    text-shadow: 5px 5px 5px skyblue;
+    font-size: 80px;
+    font-family: Regista;
+    height: 100px;
+
+}
+
+.home_wel_heading_2:hover {
+
+    /* border: 2px solid magenta; */
+    text-align: center;
+    text-shadow: 5px 5px 5px skyblue;
+    color: blue;
+    font-size: 80px;
+    font-family: Regista;
+    height: 100px;
+
+}
+
+/* Home buttons  */
+.home_top_btn {
+
+    border: 2px solid blue;
+    border-radius: 20px;
+    color: blue;
+    padding: 10px 60px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+.home_top_btn:hover {
+    border: 2px solid blue;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 60px;
+    width: 100%;
+    background-color: blue;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* =================================================  */
+@media only screen and (max-width: 1920px) {}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 992px) {
+
+    /* welcome to  */
+    .home_wel_heading_1 {
+
+        /* border: 2px solid magenta; */
+        text-align: center;
+        color: blue;
+        font-size: 55px;
+        font-family: Regista;
+        height: 100px;
+
+    }
+
+    .home_wel_heading_1:hover {
+
+        /* border: 2px solid magenta; */
+        text-align: center;
+        text-shadow: 5px 5px 5px skyblue;
+        color: blue;
+        font-size: 55px;
+        font-family: Regista;
+        height: 100px;
+
+    }
+
+    /* clinic name */
+    .home_wel_heading_2 {
+
+        /* border: 2px solid magenta; */
+        text-align: center;
+        color: blue;
+        font-size: 50px;
+        font-family: Regista;
+        height: 100px;
+
+    }
+
+    .home_wel_heading_2:hover {
+
+        /* border: 2px solid magenta; */
+        text-align: center;
+        text-shadow: 5px 5px 5px skyblue;
+        color: blue;
+        font-size: 50px;
+        font-family: Regista;
+        height: 100px;
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* welcome to  */
+    .home_wel_heading_1 {
+
+        /* border: 2px solid magenta; */
+        text-align: center;
+        color: blue;
+        font-size: 40px;
+        font-family: Regista;
+        height: 100px;
+
+    }
+
+    .home_wel_heading_1:hover {
+
+        /* border: 2px solid magenta; */
+        text-align: center;
+        text-shadow: 5px 5px 5px skyblue;
+        color: blue;
+        font-size: 40px;
+        font-family: Regista;
+        height: 100px;
+
+    }
+
+    /* clinic name */
+    .home_wel_heading_2 {
+
+        /* border: 2px solid magenta; */
+        text-align: center;
+        color: blue;
+        font-size: 40px;
+        font-family: Regista;
+        height: 100px;
+
+    }
+
+    .home_wel_heading_2:hover {
+
+        /* border: 2px solid magenta; */
+        text-align: center;
+        text-shadow: 5px 5px 5px skyblue;
+        color: blue;
+        font-size: 40px;
+        font-family: Regista;
+        height: 100px;
+
+    }
+}
+
+
+@media only screen and (max-width: 535px) {
+
+
+    /* welcome to  */
+    .home_wel_heading_1 {
+
+        /* border: 2px solid magenta; */
+        text-align: center;
+        color: blue;
+        font-size: 50px;
+        font-family: Regista;
+        height: 100px;
+
+    }
+
+    .home_wel_heading_1:hover {
+
+        /* border: 2px solid magenta; */
+        text-align: center;
+        text-shadow: 5px 5px 5px skyblue;
+        color: blue;
+        font-size: 50px;
+        font-family: Regista;
+        height: 100px;
+
+    }
+
+    /* clinic name */
+    .home_wel_heading_2 {
+
+        /* border: 2px solid magenta; */
+        text-align: center;
+        color: blue;
+        font-size: 30px;
+        font-family: Regista;
+        height: 100px;
+
+    }
+
+    .home_wel_heading_2:hover {
+
+        /* border: 2px solid magenta; */
+        text-align: center;
+        text-shadow: 5px 5px 5px skyblue;
+        color: blue;
+        font-size: 30px;
+        font-family: Regista;
+        height: 100px;
+
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    /* welcome to  */
+    .home_wel_heading_1 {
+
+        /* border: 2px solid magenta; */
+        text-align: center;
+        color: blue;
+        font-size: 50px;
+        font-family: Regista;
+        height: 100px;
+
+    }
+
+    .home_wel_heading_1:hover {
+
+        /* border: 2px solid magenta; */
+        text-align: center;
+        text-shadow: 5px 5px 5px skyblue;
+        color: blue;
+        font-size: 50px;
+        font-family: Regista;
+        height: 100px;
+
+    }
+
+    /* clinic name */
+    .home_wel_heading_2 {
+
+        /* border: 2px solid magenta; */
+        text-align: center;
+        color: blue;
+        font-size: 30px;
+        font-family: Regista;
+        height: 100px;
+
+    }
+
+    .home_wel_heading_2:hover {
+
+        /* border: 2px solid magenta; */
+        text-align: center;
+        text-shadow: 5px 5px 5px skyblue;
+        color: blue;
+        font-size: 30px;
+        font-family: Regista;
+        height: 100px;
+
+    }
+}
+
+@media only screen and (max-width: 412px) {
+
+    /* welcome to  */
+    .home_wel_heading_1 {
+
+        /* border: 2px solid magenta; */
+        text-align: center;
+        color: blue;
+        font-size: 30px;
+        font-family: Regista;
+        height: 100px;
+
+    }
+
+    .home_wel_heading_1:hover {
+
+        /* border: 2px solid magenta; */
+        text-align: center;
+        text-shadow: 5px 5px 5px skyblue;
+        color: blue;
+        font-size: 30px;
+        font-family: Regista;
+        height: 100px;
+
+    }
+
+    /* clinic name */
+    .home_wel_heading_2 {
+
+        /* border: 2px solid magenta; */
+        text-align: center;
+        color: blue;
+        font-size: 40px;
+        font-family: Regista;
+        height: 100px;
+
+    }
+
+    .home_wel_heading_2:hover {
+
+        /* border: 2px solid magenta; */
+        text-align: center;
+        text-shadow: 5px 5px 5px skyblue;
+        color: blue;
+        font-size: 40px;
+        font-family: Regista;
+        height: 100px;
+
+    }
+
+}

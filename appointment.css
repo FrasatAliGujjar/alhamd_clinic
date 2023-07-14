@@ -1,0 +1,125 @@
+@font-face {
+    font-family: Bulletto;
+    src: url(fonts/Bulletto.ttf);
+}
+
+@font-face {
+    font-family: Regista;
+    src: url(fonts/Regista.ttf);
+}
+
+@font-face {
+    font-family: Regista_i;
+    src: url(fonts/Regista_i.ttf);
+}
+
+@font-face {
+    font-family: Rockybilly;
+    src: url(fonts/Rockybilly.ttf);
+}
+
+@font-face {
+    font-family: Alvi;
+    src: url(fonts/Alvi.ttf);
+}
+
+/* =================================================  */
+
+.form_main {
+    margin-top: 10px;
+    border:  2px solid blue;
+    background-color: rgba(0, 0, 128, 0.5);
+    border-radius: 20px;
+    height: 600px;
+    /* padding-top: 20px; */
+    padding-bottom: 20px;
+}
+
+.form_heading {
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 20px;
+}
+
+.left_side {
+    /* border: 2px solid red; */
+    padding-top: 10px;
+    padding-bottom: 30px;
+    height: fit-content;
+}
+
+.right_side {
+    /* border: 2px solid red; */
+    padding-top: 10px;
+    padding-bottom: 30px;
+    height: fit-content;
+}
+
+.btn-box {
+    /* border: 2px solid red; */
+    height: 60px;
+
+}
+
+/* ================================================================  */
+.input_title {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+
+.input_field {
+    width: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 3px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.wa-btn{
+
+    padding: 5px 10px;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    width: fit-content;
+    margin-left: 40px;
+}
+.wa-btn:hover{
+
+    padding: 5px 10px;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    width: fit-content;
+    margin-left: 40px;
+    box-shadow: 2px 2px 5px yellow ;
+}
+
+
+
+
+
+
+
+
+
+
+/* =================================================  */
+@media only screen and (max-width: 1920px) {}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 535px) {}
+
+@media only screen and (max-width: 480px) {}
+
+@media only screen and (max-width: 412px) {}
